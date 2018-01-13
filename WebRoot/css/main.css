@@ -1,0 +1,35 @@
+/*块级元素需要加width,margin才起作用*/
+*{
+	/*border:1px solid black;*/
+}
+body{/*bootstrap中定义了body的margin为0,所以这里写margin不起作用!!!关键看引入这两个文件的顺序*/
+	padding-top:70px;
+	/*width:900px;
+	margin:0 auto auto;*/
+	text-align:center;
+}
+
+/* table{
+	margin:20px auto auto;
+	width:900px;
+} */
+
+td{
+	text-align:center;	
+}
+
+/* .odd{
+	background-color:#C8EDCC;
+} */
+
+/* .even{
+	background-color:#EDEDCB;
+} */
+
+/* table img{
+	height: 150px;
+	width: 120px;
+	border-style:solid;
+	border-color: blue;
+	border-width: 2px;
+} */
